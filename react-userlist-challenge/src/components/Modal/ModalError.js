@@ -22,7 +22,7 @@ const ModalError = props => {
 		<div onClick={props.onClose} className={styles.overlay}>
 			<div className={styles['modal-error']}>
 				<div className={styles['modal-error__title']}>
-					{`Error, please review:`}
+					{ props.errorTitle }
 				</div>
 				<div className={styles['modal-error__content']}>
 					{ errorMsg }<br />

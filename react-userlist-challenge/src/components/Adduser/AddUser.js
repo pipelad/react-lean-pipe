@@ -21,7 +21,7 @@ const AddUser = props => {
 
 	return(
 		<Section class='add-user'>
-			<ModalError errorState={errorState} errorData={errorData} onClose={closeErrorHandler}/>
+			<ModalError errorTitle={'Error, please review:'} errorState={errorState} errorData={errorData} onClose={closeErrorHandler}/>
 			<AddUserForm onSaveUser={userDatahandler}/>
 		</Section>
 	);

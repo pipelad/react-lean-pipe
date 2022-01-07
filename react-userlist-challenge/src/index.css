@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+:root {
+  --rich-black:#000814;
+  --dark-blue: #003049;
+  --red: #D62828;
+  --orange: #F77F00;
+  --yelow: #FCBF49;
+  --merengue: #EAE2B7;
+  --white: #FFFAFA;
+}
+
+/*RESETS*/
+
+*, *::before, *::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+*:focus {
+  outline: none;
+}
+
+/*Build*/
+body {
+  background: linear-gradient(to bottom right, var(--rich-black), var(--dark-blue));
+  min-height: 100vh;
+  font-family: 'Roboto Mono', monospace;
+}
+
+main.App {
+  width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main.App .App-title {
+  font-size: 3rem;
+  color: transparent;
+  background: linear-gradient(to right, var(--merengue), var(--yelow));
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding: 2rem;
+
+}

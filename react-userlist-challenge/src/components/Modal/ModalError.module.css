@@ -1,0 +1,46 @@
+.overlay {
+	top: 0rem;
+	left: 0rem;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, 0.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-error {
+	background-color: var(--white);
+	border-radius: 1rem;
+	overflow: hidden;
+	width: 65rem;
+}
+
+.modal-error__title {
+	background-color: var(--red);
+	padding: 1rem;
+	font-size: 3rem;
+	color: var(--merengue);
+}
+.modal-error__content {
+	padding: 1rem;
+	font-size: 1.6rem;
+}
+
+button.modal-error__close {
+	border-radius: .5rem;
+	border: none;
+	float: right;
+	margin: 1rem;
+	font-size: 2rem;
+	padding: 1rem;
+	background: var(--red);
+	cursor: pointer;
+	color: var(--merengue);
+}
+button.modal-error__close:hover,
+button.modal-error__close:focus {
+	color: var(--merengue);
+	background-color: var(--dark-blue);
+}

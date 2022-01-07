@@ -1,0 +1,64 @@
+.form {
+	border: solid 0.2rem var(--white);
+	border-radius: 1rem;
+	padding: 2rem;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.form-input {
+	background: var(--white);
+	font-size: 1.6rem;
+	display: grid;
+	grid-template-columns: 13rem 1fr;
+	grid-gap: 1rem;
+	margin-bottom: 2rem;
+}
+.form-gender {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 0.5rem;
+}
+.form-gender > div:nth-child(odd) {
+	padding: 2rem;
+	border-radius: 0.5rem;
+	background-color: var(--merengue);
+}
+.gen-check {
+	color: var(--merengue);
+	font-size: 2rem;
+	display: flex;
+	flex-flow: column;
+}
+.form-input.invalid {
+	border-bottom: 1rem solid var(--red);
+}
+.form-input label {
+	height: 4ch;
+	line-height: 3ch;
+	padding: .5rem;
+	background-color: var(--yelow);
+}
+
+.form-input input {
+	border: none;
+	background: transparent;
+}
+
+.form button {
+	border-radius: .5rem;
+	border: none;
+	width: 100%;
+	font-size: 2rem;
+	padding: 1rem;
+	background: var(--yelow);
+	cursor: pointer;
+	color: var(--rich-black);
+}
+.form button:hover,
+.form button:focus {
+	color: var(--merengue);
+	background-color: var(--orange);
+}

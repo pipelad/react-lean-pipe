@@ -1,0 +1,16 @@
+.svg-containter {
+	width: 100%;
+}
+.svg-containter svg {
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.st0 {
+	fill:none;
+	stroke:var(--rich-black);
+	stroke-miterlimit:10;
+}
+.st1 {
+	fill:var(--white);
+}

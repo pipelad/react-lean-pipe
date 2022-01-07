@@ -1,0 +1,22 @@
+section.user {
+	margin-bottom: 3rem;
+}
+.user-list{
+	border: solid 0.2rem var(--white);
+	border-radius: 1rem;
+	width: 70%;
+    margin-left: 15%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+.user-list h2 {
+	grid-column: 1 / -1;
+}
+h2 {
+	text-align: center;
+	color: var(--white);
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
